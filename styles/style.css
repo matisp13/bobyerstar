@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Rubik+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 140px);
+  padding: 10px 70px;
+  background-color: #d9d9d9;
+  justify-content: space-between;
+  align-items: center;
+}
+div.logo {
+  font-family: "Rubik Bubbles";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+
+  color: #000000;
+}
+nav > a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding-left: 40px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.banner {
+  width: calc(100% - 140px);
+  padding: 600px 70px;
+}
+.Steve {
+  background-image: url("../images/stevejobs.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Elon {
+  background-image: url("../images/elonmusk.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ 
+}
+.innerBanner > h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.Btn {
+  width: 200px;
+  height: 60px;
+  background-color: #e9645d;
+  border-radius: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.innerBanner{
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+footer{
+  background-color: #000000;
+  width: calc(100% - 140px);
+  padding: 70px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer >.logo{
+  color: #ffffff;
+}
+.social > img{
+  padding-left: 20px;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
